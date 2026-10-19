@@ -1689,7 +1689,7 @@ a:hover>.arw{transform:translateX(4px)}
 @media(prefers-reduced-motion:reduce){.kx-net .p{display:none}}
 /* 모바일: 첫 칸이 한 화면을 꽉 채움 (헤더·윈터스쿨 띠·하단 상담 바 제외), 한자+뜻은 아래로 모이고 세로선은 위아래로 길게 */
 @media(max-width:1023px){
-  .kx-hero{display:flex;flex-direction:column;min-height:min(calc(100svh - var(--kxTop,119px) - var(--kxBot,44px)),128vw);padding:24px 0 26px}
+  .kx-hero{display:flex;flex-direction:column;min-height:calc(100svh - var(--kxTop,119px) - var(--kxBot,44px));padding:24px 0 26px}
   .kx-hero>.kin{flex:1 1 auto;display:flex;flex-direction:column}
   .kx-hero .kx-han{flex:1 1 auto}
   .kx-hero .kx-han span{justify-content:flex-end;padding-top:24px}
