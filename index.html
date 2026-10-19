@@ -1774,6 +1774,8 @@ main.wrap *:not(input[type=checkbox]):not(input[type=radio]),.nv *,.hsw,.hsw *,h
 .hsw{background:#fff!important;box-shadow:none!important;border-top:1px solid #111113}@media(min-width:1024px){.hsw{border:1px solid #111113;box-shadow:0 14px 30px -18px rgba(17,17,19,.45)!important}}
 .hsw .hs{background:#fff!important;color:#111113!important;text-shadow:none!important}.hsw .hs b{color:#111113!important}.hsw .hs svg{stroke:#111113}
 .hsw .hx{background:#111113!important}
+/* 모바일: 상담 신청서·FAQ 제목과 아래 표 사이 간격 (붙어 보이던 문제) — 입반 신청서(38px)와 맞춤 */
+@media(max-width:1023px){#apply .sxr,#faq .sxr{margin-top:38px}}
 /* 카카오톡 채널 주소가 생기기 전까지 카카오 떠 있는 버튼 숨김 */
 .kakao[href='#']{display:none!important}
 .kakao,.tel{border-radius:0!important;box-shadow:none!important}
